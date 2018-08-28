@@ -18,8 +18,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Load
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/apis.md
 specificationVersion: "0.14"
 apis:
@@ -37,6 +37,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actioncreatelistener-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actioncreatelistener-get-openapi.md
+- name: AWS Elastic Load Balancing API - Create Load Balancer
+  x-api-slug: actioncreateloadbalancer-get
+  description: Creates an Application Load Balancer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Servers, Performance, Availability, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actioncreateloadbalancer-get-openapi.md
+- name: AWS Elastic Load Balancing API - Delete Load Balancer
+  x-api-slug: actiondeleteloadbalancer-get
+  description: Deletes the specified Application Load Balancer and its attached listeners.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Servers, Performance, Availability, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actiondeleteloadbalancer-get-openapi.md
 - name: AWS Elastic Load Balancing API - Describe Listeners
   x-api-slug: actiondescribelisteners-get
   description: Describes the specified listeners or the listeners for the specified
@@ -52,6 +76,44 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actiondescribelisteners-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actiondescribelisteners-get-openapi.md
+- name: AWS Elastic Load Balancing API - Describe Load Balancer Attributes
+  x-api-slug: actiondescribeloadbalancerattributes-get
+  description: Describes the attributes for the specified Application Load Balancer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Servers, Performance, Availability, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actiondescribeloadbalancerattributes-get-openapi.md
+- name: AWS Elastic Load Balancing API - Describe Load Balancers
+  x-api-slug: actiondescribeloadbalancers-get
+  description: Describes the specified Application Load Balancers or all of your Application
+    Load Balancers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Servers, Performance, Availability, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actiondescribeloadbalancers-get-openapi.md
+- name: AWS Elastic Load Balancing API - Modify Load Balancer Attributes
+  x-api-slug: actionmodifyloadbalancerattributes-get
+  description: Modifies the specified attributes of the specified Application Load
+    Balancer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Servers, Performance, Availability, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-elastic-load-balancing/actionmodifyloadbalancerattributes-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elastic.beanstalk.api.gallery.streamdata.io

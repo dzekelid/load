@@ -13,11 +13,86 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Load
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-auto-scaling/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Auto Scaling API - Attach Load Balancers
+  x-api-slug: actionattachloadbalancers-get
+  description: Attaches one or more Classic load balancers to the specified Auto Scaling
+    group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-auto-scaling/actionattachloadbalancers-get-openapi.md
+- name: AWS Auto Scaling API - Attach Load Balancer Target Groups
+  x-api-slug: actionattachloadbalancertargetgroups-get
+  description: Attaches one or more target groups to the specified Auto Scaling group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-auto-scaling/actionattachloadbalancertargetgroups-get-openapi.md
+- name: AWS Auto Scaling API - Describe Load Balancers
+  x-api-slug: actiondescribeloadbalancers-get
+  description: Describes the load balancers for the specified Auto Scaling group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-auto-scaling/actiondescribeloadbalancers-get-openapi.md
+- name: AWS Auto Scaling API - Describe Load Balancer Target Groups
+  x-api-slug: actiondescribeloadbalancertargetgroups-get
+  description: Describes the target groups for the specified Auto Scaling group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-auto-scaling/actiondescribeloadbalancertargetgroups-get-openapi.md
+- name: AWS Auto Scaling API - Detach Load Balancers
+  x-api-slug: actiondetachloadbalancers-get
+  description: Detaches one or more Classic load balancers from the specified Auto
+    Scaling group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-auto-scaling/actiondetachloadbalancers-get-openapi.md
+- name: AWS Auto Scaling API - Detach Load Balancer Target Groups
+  x-api-slug: actiondetachloadbalancertargetgroups-get
+  description: Detaches one or more target groups from the specified Auto Scaling
+    group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
+  humanURL: https://aws.amazon.com/autoscaling/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/load/master/_listings/aws-auto-scaling/actiondetachloadbalancertargetgroups-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.appstream.api.gallery.streamdata.io
